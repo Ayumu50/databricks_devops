@@ -1,3 +1,6 @@
+bundle:
+  name: devops-essentials-health-etl      # ← これが無いと "missing bundle name"
+  
 resources:
   pipelines:
     pipeline_sdk_health_etl_labuser14620167_1782446815_1_dev:
