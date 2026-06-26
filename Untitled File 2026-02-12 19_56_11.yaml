@@ -1,0 +1,21 @@
+resources:
+  pipelines:
+    pipeline_sdk_health_etl_labuser14620167_1782446815_1_dev:
+      name: sdk_health_etl_labuser14620167_1782446815_1_dev
+      configuration:
+        target: development
+        raw_data_path: /Volumes/labuser14620167_1782446815/default/health
+      libraries:
+        - glob:
+            include: /Workspace/Users/labuser14620167_1782446815@vocareum.com/devops-essentials-for-data-engineering-ja_jp-2.1.0/DevOps
+              Essentials for Data Engineering/src/sdp/**
+        - glob:
+            include: /Workspace/Users/labuser14620167_1782446815@vocareum.com/devops-essentials-for-data-engineering-ja_jp-2.1.0/DevOps
+              Essentials for Data Engineering/tests/integration_test/**
+      schema: default
+      development: true
+      photon: true
+      catalog: labuser14620167_1782446815
+      serverless: true
+      root_path: /Workspace/Users/labuser14620167_1782446815@vocareum.com/devops-essentials-for-data-engineering-ja_jp-2.1.0/DevOps
+        Essentials for Data Engineering/src
