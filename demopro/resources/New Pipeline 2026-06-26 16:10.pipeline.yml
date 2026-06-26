@@ -1,0 +1,11 @@
+resources:
+  pipelines:
+    New_Pipeline_2026_06_26_16_10:
+      name: New Pipeline 2026-06-26 16:10aaa
+      libraries:
+        - glob:
+            include: ../src/New Pipeline 2026-06-26 16:10/transformations/**
+      serverless: true
+      catalog: dbacademy
+      schema: ${workspace.current_user.short_name}
+      root_path: ../src/New Pipeline 2026-06-26 16:10

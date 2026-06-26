@@ -1,7 +1,7 @@
 resources:
   pipelines:
     pipeline_sdk_health_etl_labuser14620167_1782446815_1_dev:
-      name: sdk_health_etl_labuser14620167_1782446815_1_dev
+      name: sdk_health_etl_labuser14620167_1782446815_1_dev2
       configuration:
         target: development
         raw_data_path: /Volumes/labuser14620167_1782446815/default/health
